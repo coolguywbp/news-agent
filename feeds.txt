@@ -1,0 +1,39 @@
+# RSS-ленты новостных источников.
+# Один URL на строку. Строки с # и пустые — игнорируются.
+# Формат: URL  |  Название источника (название опционально, через |).
+# Добавляйте/убирайте источники свободно — код подхватит изменения при следующем запуске.
+# Все ленты ниже проверены на доступность 19.06.2026.
+
+# --- Федеральные агентства ---
+https://tass.ru/rss/v2.xml                                 | ТАСС
+https://ria.ru/export/rss2/archive/index.xml               | РИА Новости
+https://www.interfax.ru/rss.asp                            | Интерфакс
+https://1prime.ru/export/rss2/index.xml                    | Прайм
+https://russian.rt.com/rss                                 | RT на русском
+https://regnum.ru/rss                                      | Regnum
+
+# --- Деловые СМИ ---
+https://rssexport.rbc.ru/rbcnews/news/30/full.rss          | РБК
+https://www.kommersant.ru/RSS/news.xml                     | Коммерсантъ
+https://www.kommersant.ru/RSS/section-business.xml         | Коммерсантъ Бизнес
+https://www.vedomosti.ru/rss/news                          | Ведомости
+https://www.finam.ru/analysis/conews/rsspoint/             | Финам
+https://www.forbes.ru/newrss.xml                           | Forbes
+https://www.finmarket.ru/rss/mainnews.asp                  | Финмаркет
+https://www.banki.ru/xml/news.rss                          | Банки.ру
+
+# --- Общественно-политические ---
+https://lenta.ru/rss/news                                  | Лента.ру
+https://www.gazeta.ru/export/rss/first.xml                 | Газета.ру
+https://rg.ru/xml/index.xml                                | Российская газета
+https://www.aif.ru/rss/news.php                            | АиФ
+https://www.mk.ru/rss/index.xml                            | Московский комсомолец
+
+# --- Отраслевые (авто / промышленность) ---
+https://www.autostat.ru/news/rss/                          | Автостат
+https://www.kommersant.ru/RSS/section-auto.xml             | Коммерсантъ Авто
+https://www.kolesa.ru/rss                                  | Колёса.ру
+
+# --- Региональные ---
+https://www.tatar-inform.ru/rss/                           | Татар-информ
+https://ulpressa.ru/feed/                                  | Ульпресса
